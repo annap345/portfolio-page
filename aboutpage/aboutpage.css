@@ -53,6 +53,7 @@ h3 {
   font-size: 28px;
   cursor: pointer;
   font-family: var(--font);
+  text-decoration: none;
 }
 
 .container {
