@@ -1,0 +1,59 @@
+:root {
+  --alighn: center;
+  --color: #6c62fb;
+}
+
+h2 {
+  font-size: 45px;
+  text-align: var(--alighn);
+  margin: 0;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h1 {
+  font-size: 90px;
+  text-align: var(--alighn);
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+p {
+  text-align: var(--alighn);
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 23px;
+  font-weight: bolder;
+  opacity: 70%;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+#contact {
+  background-color: var(--color);
+  text-decoration: none;
+  color: white;
+  padding: 20px 15px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+#about {
+  color: var(--color);
+  border-color: var(--color);
+  border-style: solid;
+  border-width: 1px;
+  text-decoration: none;
+  padding: 20px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
