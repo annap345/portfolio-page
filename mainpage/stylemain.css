@@ -1,6 +1,11 @@
 :root {
   --alighn: center;
-  --color: #6c62fb;
+  --color: #bb5a5a;
+  --font: "Nanum Gothic", sans-serif;
+}
+
+body {
+  background-color: #fff2e5;
 }
 
 h2 {
@@ -10,6 +15,7 @@ h2 {
   margin-top: 50px;
   display: flex;
   justify-content: space-evenly;
+  font-family: var(--font);
 }
 
 h1 {
@@ -18,6 +24,7 @@ h1 {
   margin: 0;
   display: flex;
   justify-content: space-evenly;
+  font-family: var(--font);
 }
 
 p {
@@ -27,24 +34,28 @@ p {
   font-size: 23px;
   font-weight: bolder;
   opacity: 70%;
-  margin-top: 0;
+
   margin-bottom: 40px;
+  font-family: var(--font);
+  color: var(--color);
 }
 
 span {
   display: flex;
   justify-content: center;
   gap: 40px;
+  font-family: var(--font);
 }
 
 #contact {
   background-color: var(--color);
   text-decoration: none;
-  color: white;
+  color: #fff2e5;
   padding: 20px 15px;
   border-radius: 5px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
   cursor: pointer;
+  font-family: var(--font);
 }
 
 #about {
@@ -56,4 +67,5 @@ span {
   padding: 20px 15px;
   border-radius: 5px;
   cursor: pointer;
+  font-family: var(--font);
 }
