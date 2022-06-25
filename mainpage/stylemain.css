@@ -8,7 +8,7 @@ body {
   background-color: #fff2e5;
 }
 
-h2 {
+.greet {
   font-size: 45px;
   text-align: var(--alighn);
   margin: 0;
@@ -18,16 +18,16 @@ h2 {
   font-family: var(--font);
 }
 
-h1 {
-  font-size: 90px;
+#main-info .name {
+  font-size: 80px;
   text-align: var(--alighn);
-  margin: 0;
+  margin: 0px;
   display: flex;
   justify-content: space-evenly;
   font-family: var(--font);
 }
 
-p {
+.position {
   text-align: var(--alighn);
   display: flex;
   justify-content: space-evenly;
@@ -68,4 +68,57 @@ span {
   border-radius: 5px;
   cursor: pointer;
   font-family: var(--font);
+}
+
+a {
+  font-family: var(--font);
+}
+
+#main-info {
+  margin: 25px;
+}
+
+.land {
+  border-radius: 20px;
+}
+
+.container img {
+  max-width: 100%;
+  margin: 15px;
+  margin-top: 40px;
+  padding: 10px;
+  background-color: #fff2e5;
+}
+
+.landing-page {
+  margin-left: 30px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #fff2e5;
+  padding: 15px;
+  padding-bottom: 30px;
+  transition: all 200ms ease-in-out;
+}
+
+.landing-page:hover {
+  background-color: #fff2e5;
+}
+
+.info,
+.land-decription {
+  font-family: var(--font);
+  color: var(--color);
+}
+
+.info {
+  text-align: center;
+}
+
+nav {
+  margin: 0 auto;
+}
+
+.greet,
+.name {
+  display: flex;
 }
