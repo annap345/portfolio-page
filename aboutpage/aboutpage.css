@@ -9,12 +9,8 @@ body {
   background-color: #fff2e5;
 }
 
-a {
-  display: flex;
-  justify-content: space-around;
-  color: var(--color);
-  margin-top: 70px;
-  font-family: var(--font);
+#about-info {
+  margin-top: 40px;
 }
 
 h1 {
@@ -40,17 +36,23 @@ h3 {
   font-size: 24px;
   font-family: var(--font);
   color: var(--color);
+  text-align: center;
 }
 
 .contact {
-  font-size: 48px;
+  font-size: 40px;
   font-family: var(--font);
   margin: 10px;
 }
 
 #mail {
+  display: flex;
+  justify-content: space-around;
+  color: var(--color);
+  margin-top: 70px;
+  font-family: var(--font);
   margin: var(--def-margin);
-  font-size: 28px;
+  font-size: 25px;
   cursor: pointer;
   font-family: var(--font);
   text-decoration: none;
@@ -68,7 +70,19 @@ p {
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
-  background-color: #eaceb4;
-  width: 350px;
   font-family: var(--font);
+}
+
+.container img {
+  padding: 10px;
+  background-color: #fff2e5;
+  border-radius: 10px;
+}
+
+.land-img {
+  width: 800px;
+}
+
+#contact-me {
+  margin-bottom: 15px;
 }
