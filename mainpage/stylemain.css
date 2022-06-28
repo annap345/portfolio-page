@@ -122,3 +122,15 @@ nav {
 .name {
   display: flex;
 }
+
+@media (max-width: 640px) {
+  .col-sm {
+    display: flex;
+    justify-content: center;
+  }
+
+  .landing-page {
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+}
